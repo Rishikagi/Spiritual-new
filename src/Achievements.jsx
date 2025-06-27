@@ -17,19 +17,21 @@ export default function Achievements() {
  
 
   return (
-    <section className="w-full">
+    <section className="w-full min-h-[500px] sm:min-h-[600px]
+">
+    
       <div
-        className="w-full bg-cover bg-center min-h-[400px] flex flex-col items-center justify-center px-4 md:px-16 lg:px-24 text-white"
+        className="w-full bg-cover bg-center min-h-[500px] flex flex-col items-center justify-center px-4 md:px-16 lg:px-24 text-white"
         style={{ backgroundImage: `url(${background})` }}
       >
         {/* Heading */}
         <div className="text-center mb-6">
-          <h2 className="font-philosopher text-4xl font-semibold mb-2">Achievements</h2>
+          <h2 className=" font-philosopher text-4xl font-semibold mb-2">Achievements</h2>
           <img src={image} alt="decorative underline" className="mx-auto w-36 sm:w-48" />
         </div>
 
         {/* Achievements */}
-        <div className="flex flex-wrap justify-center gap-[90px] mt-4">
+        <div className="flex flex-wrap justify-center gap-[90px] sm:gap-[70px] mt-4">
           {achievementsData.map((item, idx) => (
             <div key={idx} className="flex flex-col items-center">
               <img src={item.img} alt="" className='hover:shadow-lg transition-shadow duration-300 scale-[20px] cursor-pointer'/>

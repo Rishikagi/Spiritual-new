@@ -13,7 +13,7 @@ function App() {
     <>
      <section className='footer bg-[#222222]'><Footer/></section>
      <section className='portfolio bg-white'><Portfolio/></section>
-     <section className='acheivements '><Achievements/></section>
+     <section className='acheivements bg-white '><Achievements/></section>
      <section className='events bg-white'><Events/></section>
     </>
   )

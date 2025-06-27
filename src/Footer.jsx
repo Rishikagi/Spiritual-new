@@ -53,7 +53,7 @@ export default function Footer() {
               <img src={fb} alt="Facebook" className="w-6 h-6 hover:scale-110 transition-transform" /></a>
               <a href="https://www.instagram.com/spiritualhealing.mk?igsh=MWs4amZvbG01ZDNsaw==">
               <img src={insta} alt="Instagram" className="w-6 h-6 hover:scale-110 transition-transform" /></a>
-              <a href="youtube.com/@spiritualhealingwithmeeenal?feature=shared">
+              <a href="https://youtube.com/@spiritualhealingwithmeeenal?si=X5650nVMMWIgPhLb">
               <img src={yt} alt="YouTube" className="w-6 h-6 hover:scale-110 transition-transform" /></a>
             </div>
           </div>
@@ -83,7 +83,7 @@ export default function Footer() {
             <ul className="text-sm space-y-2  text-[10px] ">
               <li className="flex items-center gap-2">
                 <span className="w-[6px] h-[6px] bg-orange-500 inline-block rounded-full"></span>
-                <a href="youtube.com/@spiritualhealingwithmeeenal?feature=shared">YouTube</a>
+                <a href="https://youtube.com/@spiritualhealingwithmeeenal?si=X5650nVMMWIgPhLb">YouTube</a>
                 
               </li>
               <li className="flex items-center gap-2">
